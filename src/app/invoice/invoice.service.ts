@@ -16,6 +16,30 @@ export class InvoiceService {
             },
             {
                 date:'02-11-2020',
+                time:'13:11:17',
+                orderNumber: 'RF5T3S',
+                price: 17.00
+            },
+            {
+                date:'02-11-2020',
+                time:'13:34:32',
+                orderNumber: '30G2WN',
+                price: 12.35
+            },
+            {
+                date:'02-11-2020',
+                time:'13:11:17',
+                orderNumber: 'RF5T3S',
+                price: 17.00
+            },
+            {
+                date:'02-11-2020',
+                time:'13:34:32',
+                orderNumber: '30G2WN',
+                price: 12.35
+            },
+            {
+                date:'02-11-2020',
                 time:'15:47:29',
                 orderNumber: 'XVMSL6',
                 price: 12.85
