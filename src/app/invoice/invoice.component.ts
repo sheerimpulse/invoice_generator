@@ -33,7 +33,7 @@ export class InvoiceComponent implements OnInit {
         pushColumnLeft = !pushColumnLeft;
         if (pushColumnLeft) {
           columnElement1.push({
-            text: 'Date                                               #                              €',
+            text: 'Date                                          #                             €',
             fontSize: 40,
             margin: [170, 60.5, 0, 0],
             bold: true,
@@ -44,23 +44,23 @@ export class InvoiceComponent implements OnInit {
                 type: 'line',
                 x1: 170,
                 y1: 30.5,
-                x2: 690,
+                x2: 655,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 710,
+                x1: 670,
                 y1: 30.5,
-                x2: 1020,
+                x2: 950,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 1040,
+                x1: 970,
                 y1: 30.5,
-                x2: 1250,
+                x2: 1160,
                 y2: 30.5,
                 lineWidth: 1,
               },
@@ -75,7 +75,7 @@ export class InvoiceComponent implements OnInit {
         } else {
           columnElement2.push(
           {
-            text: 'Date                                               #                                €',
+            text: 'Date                                          #                              €',
             fontSize: 40,
             margin: [0, 60.5, 170, 0],
             bold: true,
@@ -86,23 +86,23 @@ export class InvoiceComponent implements OnInit {
                 type: 'line',
                 x1: 0,
                 y1: 30.5,
-                x2: 500,
+                x2: 480,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 550,
+                x1: 500,
                 y1: 30.5,
-                x2: 870,
+                x2: 780,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 890,
+                x1: 820,
                 y1: 30.5,
-                x2: 1100,
+                x2: 1010,
                 y2: 30.5,
                 lineWidth: 1,
               },
@@ -130,7 +130,7 @@ export class InvoiceComponent implements OnInit {
           fontSize: 40,
           margin: [170, 30, 0, 0],
           lineHeight: 2,
-          characterSpacing:8.5
+          characterSpacing:6
         });
       }
       else {
@@ -148,7 +148,7 @@ export class InvoiceComponent implements OnInit {
           fontSize: 40,
           margin: [0, 30, 170, 0],
           lineHeight: 2,
-          characterSpacing:8.5,
+          characterSpacing:6,
         });
       }
     }
@@ -159,7 +159,7 @@ export class InvoiceComponent implements OnInit {
         pushColumnLeft = !pushColumnLeft;
         if (pushColumnLeft) {
           columnElement3.push({
-            text: 'Date                                               #                              €',
+            text: 'Date                                          #                             €',
             fontSize: 40,
             margin: [170, 200, 0, 0],
             bold: true,
@@ -170,23 +170,23 @@ export class InvoiceComponent implements OnInit {
                 type: 'line',
                 x1: 170,
                 y1: 30.5,
-                x2: 690,
+                x2: 655,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 710,
+                x1: 670,
                 y1: 30.5,
-                x2: 1020,
+                x2: 950,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 1040,
+                x1: 970,
                 y1: 30.5,
-                x2: 1250,
+                x2: 1160,
                 y2: 30.5,
                 lineWidth: 1,
               },
@@ -200,7 +200,7 @@ export class InvoiceComponent implements OnInit {
         } else {
           columnElement4.push(
           {
-            text: 'Date                                               #                              €',
+            text: 'Date                                          #                              €',
             fontSize: 40,
             margin: [0, 200, 170, 0],
             bold: true,
@@ -211,23 +211,23 @@ export class InvoiceComponent implements OnInit {
                 type: 'line',
                 x1: 0,
                 y1: 30.5,
-                x2: 500,
+                x2: 480,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 550,
+                x1: 500,
                 y1: 30.5,
-                x2: 870,
+                x2: 780,
                 y2: 30.5,
                 lineWidth: 1,
               },
               {
                 type: 'line',
-                x1: 890,
+                x1: 820,
                 y1: 30.5,
-                x2: 1100,
+                x2: 1010,
                 y2: 30.5,
                 lineWidth: 1,
               },
@@ -255,7 +255,7 @@ export class InvoiceComponent implements OnInit {
           fontSize: 40,
           margin: [170, 30, 0, 0],
           lineHeight: 2,
-          characterSpacing:8
+          characterSpacing:6
         });
       }
       else {
@@ -273,7 +273,7 @@ export class InvoiceComponent implements OnInit {
           fontSize: 40,
           margin: [0, 30, 170, 0],
           lineHeight: 2,
-          characterSpacing:8,
+          characterSpacing:6,
         });
       }
     }
